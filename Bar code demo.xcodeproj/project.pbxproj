@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		916FB9071DBF06A0000284E4 /* vvv.m in Sources */ = {isa = PBXBuildFile; fileRef = 916FB9061DBF06A0000284E4 /* vvv.m */; };
 		FFE39CD219B81268000D1CC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE39CD119B81268000D1CC5 /* Foundation.framework */; };
 		FFE39CD419B81268000D1CC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE39CD319B81268000D1CC5 /* CoreGraphics.framework */; };
 		FFE39CD619B81268000D1CC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE39CD519B81268000D1CC5 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		916FB9051DBF06A0000284E4 /* vvv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vvv.h; sourceTree = "<group>"; };
+		916FB9061DBF06A0000284E4 /* vvv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vvv.m; sourceTree = "<group>"; };
 		FFE39CCE19B81268000D1CC5 /* Bar code demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar code demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE39CD119B81268000D1CC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFE39CD319B81268000D1CC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 				FFE39CE719B81268000D1CC5 /* SSFViewController.m */,
 				FFE39CE919B81268000D1CC5 /* Images.xcassets */,
 				FFE39CD819B81268000D1CC5 /* Supporting Files */,
+				916FB9051DBF06A0000284E4 /* vvv.h */,
+				916FB9061DBF06A0000284E4 /* vvv.m */,
 			);
 			path = "Bar code demo";
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			files = (
 				FFE39CE819B81268000D1CC5 /* SSFViewController.m in Sources */,
 				FFE39CDE19B81268000D1CC5 /* main.m in Sources */,
+				916FB9071DBF06A0000284E4 /* vvv.m in Sources */,
 				FFE39CE219B81268000D1CC5 /* SSFAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

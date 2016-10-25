@@ -25,7 +25,7 @@
 {
     [super viewDidLoad];
     NSLog(@"hahaha,i am king james");
-    
+    int a = 0;
 }
 
 - (IBAction)startButtonPressed:(id)sender
