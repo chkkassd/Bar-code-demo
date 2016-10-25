@@ -26,6 +26,7 @@
     [super viewDidLoad];
     NSLog(@"hahaha,i am king james");
     int a = 0;
+    float b = 0.9;
 }
 
 - (IBAction)startButtonPressed:(id)sender
