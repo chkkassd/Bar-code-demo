@@ -24,6 +24,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"hahaha,i am king james");
     
 }
 
